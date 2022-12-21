@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    <h1>Landing page LARAVEL</h1>
-    <a href="/">TORNA ALLA HOME</a>
+    <h1>{{$title}}</h1>
+    <a href="/">{{$link_text}}</a>
 
 </body>
 </html>

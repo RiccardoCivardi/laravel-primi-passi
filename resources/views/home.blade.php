@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    <h1>HELLO LARAVEL!</h1>
-    <a href="/landing">VAI ALLA PAGINA DI ATTERRAGGIO</a>
+    <h1>{{$title}}</h1>
+    <a href="/landing">{{$link_text}}</a>
 
 </body>
 </html>

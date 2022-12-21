@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $title = 'HELLO LARAVEL!';
+    $link_text = 'VAI ALLA PAGINA DI ATTERRAGGIO';
+
+    return view('home', compact('title','link_text'));
 });
 
 Route::get('/landing', function () {
-    return view('landing');
+
+    $title = 'Landing page LARAVEL';
+    $link_text = 'TORNA ALLA HOME';
+
+    return view('landing', compact('title','link_text'));
 });
