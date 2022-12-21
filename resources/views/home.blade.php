@@ -9,6 +9,7 @@
 <body>
 
     <h1>HELLO LARAVEL!</h1>
+    <a href="/landing">VAI ALLA PAGINA DI ATTERRAGGIO</a>
 
 </body>
 </html>

@@ -8,5 +8,8 @@
 </head>
 <body>
 
+    <h1>Landing page LARAVEL</h1>
+    <a href="/">TORNA ALLA HOME</a>
+
 </body>
 </html>
